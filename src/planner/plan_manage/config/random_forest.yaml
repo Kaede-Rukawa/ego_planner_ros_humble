@@ -1,0 +1,22 @@
+#TAG  注意 这个ID要保证跟节点的名字一样（rename就要跟rename的一样，rqt里面怎么显示，这里就得怎么弄）
+random_map_sensing: 
+  ros__parameters:
+    map/x_size: 26.0
+    map/y_size: 20.0
+    map/z_size: 3.0
+    map/resolution: 0.1
+    ObstacleShape/seed: 1
+    map/obs_num: 250
+    ObstacleShape/lower_rad: 0.5
+    ObstacleShape/upper_rad: 0.7
+    ObstacleShape/lower_hei: 0.0
+    ObstacleShape/upper_hei: 3.0
+    map/circle_num: 250
+    ObstacleShape/radius_l: 0.7
+    ObstacleShape/radius_h: 0.5
+    ObstacleShape/z_l: 0.7
+    ObstacleShape/z_h: 0.8
+    ObstacleShape/theta: 0.5
+    pub_rate: 1.0
+    min_distance: 0.8
+    test_param: true
